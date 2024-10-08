@@ -1,0 +1,177 @@
+/* Estilos globais */
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f4f8;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Cabeçalho */
+header {
+    background-color: #1a202c;
+    color: white;
+    padding: 1em;
+    text-align: center;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+    letter-spacing: 2px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 1em;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 1.5em;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.1em;
+}
+
+nav ul li a:hover {
+    color: #68d391;
+}
+
+/* Seção Sobre Mim */
+#sobre-mim {
+    padding: 2em;
+    text-align: center;
+    background-color: #ffffff;
+}
+
+.perfil {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1.5em;
+}
+
+.foto-perfil {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}
+
+#sobre-mim p {
+    font-size: 1.1em;
+    max-width: 600px;
+    margin: 0 auto;
+    color: #4a5568;
+}
+
+/* Seção Habilidades */
+#habilidades {
+    padding: 2em;
+    background-color: #edf2f7;
+    text-align: center;
+}
+
+#habilidades ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#habilidades ul li {
+    display: inline-block;
+    margin: 0.5em;
+    padding: 0.7em 1.5em;
+    background-color: #1a202c;
+    color: white;
+    border-radius: 20px;
+    transition: transform 0.3s ease;
+}
+
+#habilidades ul li:hover {
+    transform: scale(1.1);
+    background-color: #68d391;
+}
+
+/* Seção Projetos */
+#projetos {
+    padding: 2em;
+    background-color: #ffffff;
+    text-align: center;
+}
+
+.projeto {
+    margin-bottom: 2em;
+}
+
+.projeto img {
+    max-width: 80%;
+    height: auto;
+    margin-bottom: 1em;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+}
+
+.projeto img:hover {
+    transform: scale(1.05);
+}
+
+.projeto h3 {
+    margin-bottom: 0.5em;
+    font-size: 1.5em;
+    color: #2d3748;
+}
+
+.projeto p {
+    color: #4a5568;
+}
+
+/* Seção Contato */
+#contato {
+    padding: 2em;
+    background-color: #edf2f7;
+    text-align: center;
+}
+
+form {
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+form input, form textarea {
+    width: 100%;
+    padding: 1em;
+    margin-bottom: 1em;
+    border: 1px solid #cbd5e0;
+    border-radius: 5px;
+}
+
+button {
+    padding: 0.8em 2em;
+    background-color: #68d391;
+    border: none;
+    color: white;
+    font-size: 1em;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #48bb78;
+}
+
+/* Rodapé */
+footer {
+    background-color: #1a202c;
+    color: white;
+    padding: 1em;
+    text-align: center;
+}
